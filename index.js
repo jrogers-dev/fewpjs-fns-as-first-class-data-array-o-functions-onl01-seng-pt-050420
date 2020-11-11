@@ -5,7 +5,7 @@ function wakeDog(dogName, dogBreed) {
 }
 
 function leashDog(dogName, dogBreed) {
-  let message = "Leash" + dogName + " the " + dogBreed;
+  let message = "Leash " + dogName + " the " + dogBreed;
   console.log(message);
   return message;
 }
@@ -35,4 +35,8 @@ function unleashDog(dogName, dogBreed) {
   return message;
 }
 
-const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+let routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+
+function exerciseDog(dogName, dogBreed) {
+  for(let i = 0; i < routine)
+}
